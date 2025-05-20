@@ -69,7 +69,7 @@ class DVrouter(Router):
 
         updated = self.recompute_route()
         if updated:
-            self.broadcast_distance_vector
+            self.broadcast_distance_vector()
         
 
     def handle_time(self, time_ms):
